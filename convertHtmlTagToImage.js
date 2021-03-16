@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         ConvertHtmlTagToImage
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       https://github.com/sedgwickz
+// @require      https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js
+// @include      *
+// @grant        none
+// ==/UserScript==
+
 (function () {
   "use strict";
   let el = null;
